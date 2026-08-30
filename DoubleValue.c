@@ -9,5 +9,7 @@ void main(){
     printf("The value of e is %.15lf\n", e);
     printf("Hello world\n");
     char a = '+A';
+    char name[] = "the values are something best";
+    printf("%s\n",name);
     printf("grade is %c \n ", a);
 }
