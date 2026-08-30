@@ -3,6 +3,6 @@
 
 void main()
 {
-    int a = 10;
+    int a = 23456789;
     printf("%d",a);
 }
