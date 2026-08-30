@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main()
+int main(void)
 {
-    int a = 23456789;
-    printf("%d",a);
+    printf("Hello world, it's working now!\n");
+    printf("Works properly.\n");
+
+    return 0;
 }
