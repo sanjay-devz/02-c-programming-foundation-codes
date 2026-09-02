@@ -10,4 +10,4 @@ int main(){
     printf("The currency used is %c\n", currency);
     printf("The total price: %d%c\n", totalPrice, currency);
 
-}
+}   
