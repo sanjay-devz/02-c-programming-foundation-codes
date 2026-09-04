@@ -1,18 +1,46 @@
-// Create an integer variable that will store the number we get from the user
 #include <stdio.h>
-#include <string.h>
 
-void main(){
+int main(){
 
-    int myNum;
+    int mark = 0;
+    int total = 0;
+    int highest = 0;
+    int lowest = 100;
+    int passed = 0;
+    int failed = 0;
+    float average;
+    
+    printf("Enter 10 Students Marks:\n ");
 
-    // Ask the user to type a number
-    printf("Type a number: \n");
+    for (int i = 0; i < 10; i++ ) {
+        scanf("%d", &mark);
 
-    // Get and save the number the user types
-    scanf("%d", &myNum);
+        total += mark;
 
-    // Output the number the user typed
-    printf("Your number is: %d", myNum);
+        if (mark  > highest){
+            highest = mark;
+        }
 
+        if (mark < lowest){
+            lowest = mark;
+        }
+
+        if (mark >= 50){
+            passed++;
+        }else{
+            failed++;
+        }      
     }
+    average = total / 10.0;
+    
+    printf("Total: %d\n", total);
+    printf("Average: %.2f\n", average);
+    printf("Highest: %d\n", highest);
+    printf("Lowest: %d\n", lowest);
+    printf("Passed: %d\n", passed);
+    printf("Failed: %d\n", failed );
+
+    return 0;
+
+
+}
