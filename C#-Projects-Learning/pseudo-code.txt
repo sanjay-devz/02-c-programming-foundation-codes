@@ -1,0 +1,6 @@
+start 
+define numTimes = 0
+define numIntergers = 0
+
+for numTimes is 0 , numtimes <=numtimes + 1 , num add increment 1 then 
+    
