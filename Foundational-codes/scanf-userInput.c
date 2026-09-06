@@ -12,8 +12,6 @@ int main(){
     scanf("%f", &percentage);
 
     printf("Enter Your Grade:");
-    scanf("%c", &grade);
-
-
+    scanf(" %c", &grade);
     return 0;
 }
