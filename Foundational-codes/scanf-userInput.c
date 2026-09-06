@@ -1,17 +1,15 @@
 #include <stdio.h>
+#include <conio.h>
 
 int main(){
     int age = 0;
-    float percentage = 0.0;
+    float percentage = 0.0f;
     char grade = '\0';
+    char name[30] = "";
 
-    printf("Enter Your Age:");
-    scanf("%d", &age);
+   
+    printf("Enter your name: ");
+    fgets(name, sizeof(name), stdin);
+    getchar();
 
-    printf("Enter Your Percentage:");
-    scanf("%f", &percentage);
-
-    printf("Enter Your Grade:");
-    scanf(" %c", &grade);
-    return 0;
 }
