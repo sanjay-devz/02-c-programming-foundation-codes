@@ -10,6 +10,6 @@ int main(){
    
     printf("Enter your name: ");
     fgets(name, sizeof(name), stdin);
-    getchar();
+   // getchar();
 
 }
